@@ -16,7 +16,10 @@ html {
     line-height: 1.4;
 }
 
-nav ul li {}
+nav {
+    float: left;
+    display: block;
+}
 
 /*
  * Remove text-shadow in selection highlight:
