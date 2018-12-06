@@ -1,3 +1,13 @@
+@charset "utf=8";
+
+nav li {
+    float: left;
+    display: block;
+    width: 20%;
+
+}
+
+
 html {
     color: #222;
     font-size: 1em;
@@ -33,7 +43,7 @@ header body nav li {
  * Hide visually and from screen readers
  */
 
-.hidden {
+/* .hidden {
     display: none !important;
 }
 
@@ -203,3 +213,5 @@ header body nav li {
         page-break-after: avoid;
     }
 }
+
+*/
