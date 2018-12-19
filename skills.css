@@ -27,19 +27,3 @@ h2 {
     text-align: center;
     font-style: italic;
 }
-
-section.dl {
-    border: double white;
-    border-radius: 10px;
-    width: 30%;
-    float: left;
-}
-
-.EA {
-    float: right;
-    width: 50%;
-}
-
-.center {
-    text-align: center;
-}

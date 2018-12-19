@@ -80,21 +80,7 @@ a:active {
 }
 
 /* Separate CSS */
-section.dl {
-    border: double white;
-    border-radius: 10px;
-    width: 30%;
-    float: left;
-}
 
-.EA {
-    float: right;
-    width: 50%;
-}
-
-.center {
-    text-align: center;
-}
 
 /* ==========================================================================
    Helper classes
