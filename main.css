@@ -4,7 +4,7 @@
 
 
 body {
-    background: url(Orotea1.jpg) no-repeat;
+    background: url(Orotea1.jpg) repeat;
     background-size: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -35,12 +35,19 @@ p#me {
     box-shadow: 8px 8px 10px gray;
 
 }
+#contact{
+    border: 10px double gray;
+    float: right;
+    width: 45%;
+    box-shadow: 8px 8px 10px gray;
+}
 
 #pic {
     float: left;
     width: 45%;
     box-shadow: 10px 10px 20px white;
     border-radius: 10px;
+    
 }
 
 .right {
@@ -261,4 +268,3 @@ a:active {
     }
 }
 
-*/

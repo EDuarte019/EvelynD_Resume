@@ -1,7 +1,7 @@
 @charset "utf=8";
 
 body {
-    background: url(Orotea1.jpg) no-repeat;
+    background: url(Orotea1.jpg) repeat;
     background-size: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -26,4 +26,16 @@ nav ul li {
 h2 {
     text-align: center;
     font-style: italic;
+}
+
+img{
+    padding: 10px;
+}
+p{
+    border: 2px solid gray;
+    box-shadow: 10px 10px 20px rgb(166, 217, 226);
+    background-color: gray;
+    font-size: 20px;
+    border-radius: 15px;
+  text-align: center;
 }

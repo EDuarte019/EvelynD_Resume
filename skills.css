@@ -1,7 +1,7 @@
 @charset "utf=8";
 
 body {
-    background: url(Orotea1.jpg) no-repeat;
+    background: url(Orotea1.jpg) repeat;
     background-size: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -23,7 +23,25 @@ nav ul li {
 
 }
 
-h2 {
+
+h2, h1 {
     text-align: center;
     font-style: italic;
+}
+article {
+    -webkit-column-width: 240px;
+    -moz-column-width: 240px;
+    column-width: 240px;
+    -webkit-column-gap: 20px;
+    -moz-column-gap: 20px;
+    column-gap: 20px;
+    /* column-rule: 1px solid rgb(200, 231, 233); */
+    widows: 2;
+    orphans: 2;
+}
+p#cd, p#lc, p#at {
+    border: 2px solid white;
+    box-shadow: 10px 10px 20px white;
+    padding: 15px;
+    
 }

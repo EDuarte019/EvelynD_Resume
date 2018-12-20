@@ -1,7 +1,7 @@
 @charset "utf=8";
 
 body {
-    background: url(Orotea1.jpg) no-repeat;
+    background: url(Orotea1.jpg) repeat;
     background-size: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -29,9 +29,9 @@ h2 {
 }
 
 section.dl {
-    border: double white;
+   
     border-radius: 10px;
-    width: 30%;
+    width: 50%;
     float: left;
 }
 
@@ -43,3 +43,4 @@ section.dl {
 .center {
     text-align: center;
 }
+
